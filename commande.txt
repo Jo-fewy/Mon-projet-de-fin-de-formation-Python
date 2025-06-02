@@ -1,0 +1,20 @@
+Dans PowerShell, tape cette commande :
+
+
+$env:Path += ";C:\Users\ACER\AppData\Roaming\Python\Python313\Scripts"
+Puis relance :
+
+après dans le bash : 
+
+streamlit run Estimation_loyer.py
+
+
+puis pour finir et lancer Streamlit avec Python :
+
+
+python -m streamlit run Estimation_loyer.py 
+
+
+
+
+rechecrche sur poetry python 

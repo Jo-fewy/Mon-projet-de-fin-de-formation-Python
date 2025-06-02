@@ -1,0 +1,22 @@
+[project]
+name = "projet_fin_formation_python"
+version = "0.1.0"
+description = "Estimateur de loyer en CIV via scraping d'une page"
+authors = [
+    { name = "jofewy", email = "jonayhancephas01@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "requests (>=2.32.3,<3.0.0)",
+    "beautifulsoup4 (>=4.13.4,<5.0.0)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "streamlit (>=1.45.1,<2.0.0)"
+]
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
